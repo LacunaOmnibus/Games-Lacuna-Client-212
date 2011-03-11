@@ -170,6 +170,7 @@ if ($opts{resources}) {
 
 # display api use counts
 output("$glc->{total_calls} api calls made.\n");
+$glc = undef;
 
 sub get_max_id {
     my ($empire_id) = @_;
